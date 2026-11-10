@@ -11,4 +11,5 @@ int main() {
     long m_stones = std::ceil(static_cast<double>(m) / a);
 
     std::cout << n_stones * m_stones << '\n';
+    return 0;
 }

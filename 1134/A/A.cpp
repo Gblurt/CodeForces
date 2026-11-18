@@ -11,12 +11,7 @@ int main() {
         std::cin >> a >> b >> c;
         
         if(
-            (a == b - 1 && a == c -2) || 
-            (a == c - 1 && a == b -2) || 
-            (b == a - 1 && b == c -2) || 
-            (b == c - 1 && b == a -2) || 
-            (c == a - 1 && c == b -2) || 
-            (c == b - 1 && c == a -2)
+            (a == b - 1 && a == c -2)
         ) {
             std::cout << "YES\n";
         } else {
